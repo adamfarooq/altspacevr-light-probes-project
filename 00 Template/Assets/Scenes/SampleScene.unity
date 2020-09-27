@@ -57,7 +57,7 @@ LightmapSettings:
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_AtlasSize: 512
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138193849}
   - component: {fileID: 138193848}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Light Probe Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,12 +195,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138193847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.34, z: -2.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1825063825}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186355318
 GameObject:
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 186355322}
   - component: {fileID: 186355321}
   - component: {fileID: 186355320}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Big Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 495738451}
   - component: {fileID: 495738450}
   - component: {fileID: 495738449}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 525818083}
   - component: {fileID: 525818082}
   - component: {fileID: 525818081}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525818079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.28, y: 0.11, z: 0}
+  m_LocalPosition: {x: 0.306, y: 0.11, z: 0}
   m_LocalScale: {x: 3.792304, y: -0.06586663, z: 27.938}
   m_Children: []
   m_Father: {fileID: 1825063825}
@@ -555,7 +555,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0, z: 0, w: 1.3346e-41}
+  m_BoundingSphereOverride: {x: 0, y: 1.5089e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 802728108}
   - component: {fileID: 802728107}
   - component: {fileID: 802728106}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Big Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 1551641012}
   - component: {fileID: 1551641011}
   - component: {fileID: 1551641014}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 1643141815}
   - component: {fileID: 1643141814}
   - component: {fileID: 1643141813}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -906,6 +906,7 @@ Transform:
   - {fileID: 525818080}
   - {fileID: 1643141812}
   - {fileID: 1551641010}
+  - {fileID: 138193849}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
